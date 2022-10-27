@@ -8,4 +8,4 @@ def model_prediction(features):
   
 test_features = [[17.114,17.344667,75346500]] #Passed in the order 'Open','Close','Volume'
 
-print(f'The stock price the next day will be ${model_prediction(test_feature)}')
+print(f'The stock price the next day will be ${model_prediction(test_features)}')
