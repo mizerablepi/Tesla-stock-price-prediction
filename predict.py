@@ -1,7 +1,7 @@
 import pickle
 
 def model_prediction(features):
-    pickled_model = pickle.load(open('./model/TSLA_stock_prediction.pkl', 'rb'))
+    pickled_model = pickle.load(open('./Model/TSLA_stock_prediction.pkl', 'rb'))
     stock_price = float(pickled_model.predict(features))
     
     return stock_price
